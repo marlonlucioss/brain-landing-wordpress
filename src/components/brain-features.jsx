@@ -2,6 +2,7 @@ import React from "react";
 
 export const BrainFeatures = (props) => {
   return (
+    <div id="funcionalidades">
     <div id="testimonials" style={{backgroundColor: 'white'}}>
       <div className="container">
         <div className="section-title text-center">
@@ -25,6 +26,7 @@ export const BrainFeatures = (props) => {
             : "loading"}
         </div>
       </div>
+    </div>
     </div>
   );
 };

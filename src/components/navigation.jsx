@@ -28,27 +28,32 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right" style={{color: 'white'}}>
             <li>
-              <a href="#features" className="page-scroll">
+              <a href="#testimonials" className="page-scroll">
                 Funcionalidades
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="#responsivo" className="page-scroll">
                 Apresentação
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href="#apresentacao" className="page-scroll">
                 Apresentação
               </a>
             </li>
             <li>
-              <a href="#portfolio" className="page-scroll">
-                FAQ
+              <a href="#quemutiliza" className="page-scroll">
+                Quem utiliza
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll">
+              <a href="#valores" className="page-scroll">
+                Valores
+              </a>
+            </li>
+            <li>
+              <a className="page-scroll">
                 Entrar
               </a>
             </li>

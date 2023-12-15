@@ -759,3 +759,23 @@ label {
     margin: 50px 0;
   }
 }
+
+.brain-site-list-item-style p{
+  color: rgb(119, 119, 119);
+  display: block;
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 16px !important;
+  margin: 0 !important;
+}
+
+.brain-site-list-item-style p:first-child{
+  font-size: 12px !important;
+  font-weight: bold !important;
+  margin-bottom: 7px !important;
+}
+
+.brain-site-list-item-style p:last-child{
+  font-size: 14px !important;
+}

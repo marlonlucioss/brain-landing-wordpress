@@ -1,7 +1,26 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import {getContent} from "../api/api";
+import {removeTags} from "../functions";
 
 export const Price = () => {
+  const [title, setTitle] = useState('')
+  const [subtitle, setSubtitle] = useState('')
+  useEffect(() => {
+    getContent('categories', '8').then((res) => {
+      res.map((post) => {
+        switch (post.title.rendered) {
+          case 'titulo':
+            setTitle(removeTags(post.content.rendered))
+            break
+          case 'subtitulo':
+            setSubtitle(removeTags(post.content.rendered))
+            break
+        }
+      })
+    })
+  }, []);
   return (
+    <div id="valores">
     <div id="team" className="text-center" style={{paddingBottom: '170px', backgroundSize: 'cover', backgroundImage: 'url(../wp-content/reactpress/apps/brain-landing/build/static/media/back-green.ddb641aae6e7ceb7e9c0.svg)', backgroundRepeat: 'no-repeat'}}>
       <div className="container">
         {/*<div className="col-md-8 col-md-offset-2 section-title">*/}
@@ -15,8 +34,8 @@ export const Price = () => {
           <div className="col-md-12 col-sm-12 team">
             <div className="col-md-6 col-sm-12" style={{paddingTop: '60px'}}>
               <div className="caption">
-                <h2 className='price-title' style={{textAlign: 'left', color: 'white'}}>Acesse hoje mesmo a versão completa</h2>
-                <p className='price-text' style={{textAlign: 'left', color: 'white'}}>Lorem ipsum dolor sit amet consectetur. Tellus massa elit ornare sit. Diam feugiat mauris tortor eget cursus. Vitae curabitur metus aenean odio purus sed orci sapien risus. Massa lobortis at nunc lorem est at venenatis turpis sem. </p>
+                <h2 className='price-title' style={{textAlign: 'left', color: 'white'}}>{title}</h2>
+                <p className='price-text' style={{textAlign: 'left', color: 'white'}}>{subtitle}</p>
               </div>
             </div>
             <div className="col-md-6 col-sm-12" style={{position: 'relative'}}>
@@ -25,6 +44,7 @@ export const Price = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
