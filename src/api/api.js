@@ -1,15 +1,5 @@
 import * as WPAPI from 'wpapi'
-const wp = new WPAPI(
-  process.env.NODE_ENV === 'development'
-    ? {
-      // eslint-disable-next-line no-undef
-      endpoint: reactPress.api.rest_url,
-      username: 'root',
-      password: 'Br41n',
-    }
-    // eslint-disable-next-line no-undef
-    : { endpoint: reactPress.api.rest_url, nonce: reactPress.api.nonce }
-)
+const wp = new WPAPI({ endpoint: 'https://landing.brain.med.br/wp/wp-json' })
 export async function getContent(resource = '', id = '') {
   try {
     const users = await wp.posts().param( resource, id )

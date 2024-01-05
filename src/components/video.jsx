@@ -7,7 +7,7 @@ export const Video = (props) => {
         <div className="row">
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="../wp-content/reactpress/apps/brain-landing/build/static/media/video.0e2fc7f301f5e48e7705.svg" className="img-responsive" alt="" />{" "}
+            <img src="img/brain/video.svg" className="img-responsive" alt="" />{" "}
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">

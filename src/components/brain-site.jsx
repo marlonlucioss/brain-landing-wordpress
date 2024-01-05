@@ -89,7 +89,7 @@ export const BrainSite = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             {" "}
-            <img src="../wp-content/reactpress/apps/brain-landing/build/static/media/multi-layer-image-svg.5040322e3b259b86d88d.svg" className="img-responsive" alt="" />{" "}
+            <img src="img/brain/multi-layer-image.svg" className="img-responsive" alt="" />{" "}
           </div>
         </div>
       </div>

@@ -212,36 +212,6 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
-foobar {
-  background: url(../img/brain/anamnese.svg) center center repeat;
-  background: url(../img/brain/atendimento.svg) center center repeat;
-  background: url(../img/brain/back-green.svg) center center repeat;
-  background: url(../img/brain/busca.svg) center center repeat;
-  background: url(../img/brain/busca2.svg) center center repeat;
-  background: url(../img/brain/dashboard.svg) center center repeat;
-  background: url(../img/brain/dashboard2.svg) center center repeat;
-  background: url(../img/brain/filtros.svg) center center repeat;
-  background: url(../img/brain/filtros2.svg) center center repeat;
-  background: url(../img/brain/firstSessionIcon.svg) center center repeat;
-  background: url(../img/brain/logo2.svg) center center repeat;
-  background: url(../img/brain/logofooter.svg) center center repeat;
-  background: url(../img/brain/multi-layer-image.svg) center center repeat;
-  background: url(../img/brain/multi-layer-image-svg.svg) center center repeat;
-  background: url(../img/brain/price.png) center center repeat;
-  background: url(../img/brain/pt.svg) center center repeat;
-  background: url(../img/brain/relatorios.svg) center center repeat;
-  background: url(../img/brain/video.svg) center center repeat;
-}
-foobar2 {
-  background: url(../img/test1.jpg) center center repeat;
-  background: url(../img/02.jpg) center center repeat;
-  background: url(../img/03.jpg) center center repeat;
-  background: url(../img/04.jpg) center center repeat;
-  background: url(../img/05.jpg) center center repeat;
-  background: url(../img/06.jpg) center center repeat;
-  background: url(../img/about.jpg) center center repeat;
-  background: url(../img/intro-bg.jpg) center center repeat;
-}
 .intro {
   display: table;
   width: 100%;

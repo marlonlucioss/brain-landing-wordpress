@@ -66,7 +66,7 @@ export const Contact = (props) => {
               <div className="col-md-5 footer-container">
                 <div className="row">
                   <div className="section-title">
-                    <h2><img src="../wp-content/reactpress/apps/brain-landing/build/static/media/logofooter.9e14dfc78dcd576bd29d.svg" className="img-responsive footer-logo" alt="" /></h2>
+                    <h2><img src="img/brain/logofooter.svg" className="img-responsive footer-logo" alt="" /></h2>
                   </div>
                 </div>
               </div>

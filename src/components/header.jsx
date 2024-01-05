@@ -42,7 +42,7 @@ export const Header = (props) => {
           <div className="container">
             <div className="row">
               <div className="intro-text">
-                <img src="../wp-content/reactpress/apps/brain-landing/build/static/media/firstSessionIcon.5482a8c0916687d881cf.svg" className="img-responsive" alt="" />
+                <img src="img/brain/firstSessionIcon.svg" className="img-responsive" alt="" />
                 <h1>
                   {title.length ? title : "Loading"}
                   <span></span>

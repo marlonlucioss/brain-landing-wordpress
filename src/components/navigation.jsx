@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img style={{width: '100px', marginTop: '-12px'}} src="../wp-content/reactpress/apps/brain-landing/build/static/media/logo2.58f8e5d640b6d2a442bc.svg" alt=""/>
+            <img style={{width: '100px', marginTop: '-12px'}} src="img/brain/logo2.svg" alt=""/>
           </a>{" "}
         </div>
 
@@ -58,7 +58,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <img style={{margin: '10px'}} src="../wp-content/reactpress/apps/brain-landing/build/static/media/pt.29359decb3c85bed020e.svg" className="img-responsive footer-logo" alt="" />
+              <img style={{margin: '10px'}} src="img/brain/pt.svg" className="img-responsive footer-logo" alt="" />
             </li>
           </ul>
         </div>

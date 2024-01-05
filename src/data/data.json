@@ -120,37 +120,37 @@
   ],
   "Testimonials": [
     {
-      "img": "../wp-content/uploads/2023/12/test1.jpg",
+      "img": "https://landing.brain.med.br/wp/wp-content/uploads/2024/01/testimonial01.jpg",
       "text": "Lorem ipsum dolor sit amet consectetur. Id pellentesque turpis tristique luctus ac ut lectus felis. Quis senectus dolor ut accumsan. Tristique etiam congue eget ultrices orci platea. Pharetra sed urna quam commodo. Arcu quis leo rhoncus enim pellentesque aliquet quis. Porttitor pharetra pretium aliquam egestas venenatis neque hendrerit at.",
       "name": "John Doe",
       "job": "John Doe"
     },
     {
-      "img": "../wp-content/uploads/2023/12/02.jpg",
+      "img": "https://landing.brain.med.br/wp/wp-content/uploads/2024/01/testimonial02.jpg",
       "text": "Lorem ipsum dolor sit amet consectetur. Id pellentesque turpis tristique luctus ac ut lectus felis. Quis senectus dolor ut accumsan. Tristique etiam congue eget ultrices orci platea. ",
       "name": "Johnathan Doe",
       "job": "John Doe"
     },
     {
-      "img": "../wp-content/uploads/2023/12/03.jpg",
+      "img": "https://landing.brain.med.br/wp/wp-content/uploads/2024/01/testimonial03.jpg",
       "text": "Lorem ipsum dolor sit amet consectetur. Id pellentesque turpis tristique luctus ac ut lectus felis. Quis senectus dolor ut accumsan. Tristique etiam congue eget ultrices orci platea. Pharetra sed urna quam commodo. Arcu quis leo rhoncus enim pellentesque aliquet quis. Porttitor pharetra pretium aliquam egestas venenatis neque hendrerit at.",
       "name": "John Doe",
       "job": "John Doe"
     },
     {
-      "img": "../wp-content/uploads/2023/12/04.jpg",
+      "img": "https://landing.brain.med.br/wp/wp-content/uploads/2024/01/testimonial04.jpg",
       "text": "Lorem ipsum dolor sit amet consectetur. Id pellentesque turpis tristique luctus ac ut lectus felis. Quis senectus dolor ut accumsan. Tristique etiam congue eget ultrices orci platea. ",
       "name": "Johnathan Doe",
       "job": "John Doe"
     },
     {
-      "img": "../wp-content/uploads/2023/12/05.jpg",
+      "img": "https://landing.brain.med.br/wp/wp-content/uploads/2024/01/testimonial05.jpg",
       "text": "Lorem ipsum dolor sit amet consectetur. Id pellentesque turpis tristique luctus ac ut lectus felis. Quis senectus dolor ut accumsan. Tristique etiam congue eget ultrices orci platea. Pharetra sed urna quam commodo. Arcu quis leo rhoncus enim pellentesque aliquet quis. Porttitor pharetra pretium aliquam egestas venenatis neque hendrerit at.",
       "name": "John Doe",
       "job": "John Doe"
     },
     {
-      "img": "../wp-content/uploads/2023/12/06.jpg",
+      "img": "https://landing.brain.med.br/wp/wp-content/uploads/2024/01/testimonial06.jpg",
       "text": "Lorem ipsum dolor sit amet consectetur. Id pellentesque turpis tristique luctus ac ut lectus felis. Quis senectus dolor ut accumsan. Tristique etiam congue eget ultrices orci platea. ",
       "name": "Johnathan Doe",
       "job": "John Doe"
@@ -158,7 +158,7 @@
   ],
   "Team": [
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/video.0e2fc7f301f5e48e7705.svg",
+      "img": "img/brain/video.svg",
       "name": "Construído para lhe ajudar",
       "job": "Lorem ipsum dolor sit amet consectetur. Et vulputate dolor non mauris arcu. In sagittis quis consequat."
     }
@@ -196,47 +196,47 @@
   ],
   "BrainFeatures": [
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/dashboard.24fdbf52f2fe66c6b8b3.svg",
+      "img": "img/brain/dashboard.svg",
       "text": "Dashboard",
       "name": "Gráficos detalhados."
     },
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/busca.b59607f49fc28c4d2fa1.svg",
+      "img": "img/brain/busca.svg",
       "text": "Busca",
       "name": "Encontre o que precisar de forma rápida."
     },
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/filtros.c8551790db8f88b36fe9.svg",
+      "img": "img/brain/filtros.svg",
       "text": "Filtros",
       "name": "Data e horário de atendimento."
     },
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/anamnese.dd9fad38cfcd32fc6840.svg",
+      "img": "img/brain/anamnese.svg",
       "text": "Anamnese",
       "name": "Entendimento pratico do estado\ndo paciente."
     },
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/atendimento.9b4724ea9bc9abf5ac05.svg",
+      "img": "img/brain/atendimento.svg",
       "text": "Atendimento",
       "name": "Cadastro e manutenção dos dados."
     },
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/dashboard2.24fdbf52f2fe66c6b8b3.svg",
+      "img": "img/brain/dashboard2.svg",
       "text": "Dashboard",
       "name": "Gráficos detalhados."
     },
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/filtros2.c8551790db8f88b36fe9.svg",
+      "img": "img/brain/filtros2.svg",
       "text": "Filtros",
       "name": "Data e horário de atendimento."
     },
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/relatorios.0b49b529fbf4a2331094.svg",
+      "img": "img/brain/relatorios.svg",
       "text": "Relatórios",
       "name": "Detalhamento e acompanhamento."
     },
     {
-      "img": "../wp-content/reactpress/apps/brain-landing/build/static/media/busca2.b59607f49fc28c4d2fa1.svg",
+      "img": "img/brain/busca2.svg",
       "text": "Busca",
       "name": "Encontre o que precisar de forma rápida."
     }
