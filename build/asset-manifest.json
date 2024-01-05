@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/css/main.07f7ab14.css",
-    "main.js": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/main.df571eb0.js",
-    "static/js/787.a2fe03ed.chunk.js": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/787.a2fe03ed.chunk.js",
-    "static/media/fontawesome-webfont.svg?v=4.3.0": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/fontawesome-webfont.fd7873675ac92feb54ea.svg",
-    "static/media/fontawesome-webfont.ttf?v=4.3.0": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
-    "static/media/glyphicons-halflings-regular.svg": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/glyphicons-halflings-regular.9a17786234899efcc963.svg",
-    "static/media/fontawesome-webfont.woff?v=4.3.0": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
-    "static/media/fontawesome-webfont.eot": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
-    "static/media/fontawesome-webfont.woff2?v=4.3.0": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
-    "static/media/glyphicons-halflings-regular.ttf": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
-    "static/media/glyphicons-halflings-regular.woff": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
-    "static/media/glyphicons-halflings-regular.eot": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
-    "static/media/glyphicons-halflings-regular.woff2": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
-    "static/media/logo.svg": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/index.html",
-    "static/media/backVerdeEfeitos.svg": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/backVerdeEfeitos.a3c465c97a6040e8bf5a.svg",
-    "main.07f7ab14.css.map": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/css/main.07f7ab14.css.map",
-    "main.df571eb0.js.map": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/main.df571eb0.js.map",
-    "787.a2fe03ed.chunk.js.map": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/787.a2fe03ed.chunk.js.map"
+    "main.css": "/static/css/main.7fe18f8f.css",
+    "main.js": "/static/js/main.0151ec34.js",
+    "static/js/787.a2fe03ed.chunk.js": "/static/js/787.a2fe03ed.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.3.0": "/static/media/fontawesome-webfont.fd7873675ac92feb54ea.svg",
+    "static/media/fontawesome-webfont.ttf?v=4.3.0": "/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
+    "static/media/glyphicons-halflings-regular.svg": "/static/media/glyphicons-halflings-regular.9a17786234899efcc963.svg",
+    "static/media/fontawesome-webfont.woff?v=4.3.0": "/static/media/fontawesome-webfont.c589f72df384e3ef078b.woff",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.03605b2467d43a9f4c63.eot",
+    "static/media/fontawesome-webfont.woff2?v=4.3.0": "/static/media/fontawesome-webfont.fb685a7c7e4aae2d4d71.woff2",
+    "static/media/glyphicons-halflings-regular.ttf": "/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "static/media/backVerdeEfeitos.svg": "/static/media/backVerdeEfeitos.a3c465c97a6040e8bf5a.svg",
+    "main.7fe18f8f.css.map": "/static/css/main.7fe18f8f.css.map",
+    "main.0151ec34.js.map": "/static/js/main.0151ec34.js.map",
+    "787.a2fe03ed.chunk.js.map": "/static/js/787.a2fe03ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07f7ab14.css",
-    "static/js/main.df571eb0.js"
+    "static/css/main.7fe18f8f.css",
+    "static/js/main.0151ec34.js"
   ]
 }
