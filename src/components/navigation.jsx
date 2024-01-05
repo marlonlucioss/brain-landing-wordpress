@@ -1,6 +1,46 @@
-import React from "react";
+import React, {useState} from "react";
+import {getContent} from "../api/api";
 
 export const Navigation = (props) => {
+  const [menu1, setMenu1] = useState('')
+  const [menu2, setMenu2] = useState('')
+  const [menu3, setMenu3] = useState('')
+  const [menu4, setMenu4] = useState('')
+  const [menu5, setMenu5] = useState('')
+
+  function removeTags(str) {
+    if ((str===null) || (str===''))
+      return false;
+    else
+      str = str.toString();
+
+    // Regular expression to identify HTML tags in
+    // the input string. Replacing the identified
+    // HTML tag with a null string.
+    return str.replace( /(<([^>]+)>)/ig, '');
+  }
+
+  getContent('categories', '15').then((res) => {
+    res.map((post) => {
+      switch (post.title.rendered) {
+        case 'menu1':
+          setMenu1(removeTags(post.excerpt.rendered))
+          break
+        case 'menu2':
+          setMenu2(removeTags(post.excerpt.rendered))
+          break
+        case 'menu3':
+          setMenu3(removeTags(post.excerpt.rendered))
+          break
+        case 'menu4':
+          setMenu4(removeTags(post.excerpt.rendered))
+          break
+        case 'menu5':
+          setMenu5(removeTags(post.excerpt.rendered))
+          break
+      }
+    })
+  })
   return (
     <nav id="menu" className="navbar navbar-default" style={{background: 'transparent', boxShadow: 'none'}}>
       <div className="container">
@@ -29,27 +69,27 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right" style={{color: 'white'}}>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Funcionalidades
+                {menu1}
               </a>
             </li>
             <li>
               <a href="#responsivo" className="page-scroll">
-                Apresentação
+                {menu2}
               </a>
             </li>
             <li>
               <a href="#apresentacao" className="page-scroll">
-                Apresentação
+                {menu3}
               </a>
             </li>
             <li>
               <a href="#quemutiliza" className="page-scroll">
-                Quem utiliza
+                {menu4}
               </a>
             </li>
             <li>
               <a href="#valores" className="page-scroll">
-                Valores
+                {menu5}
               </a>
             </li>
             <li>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/css/main.07f7ab14.css",
-    "main.js": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/main.51a80f11.js",
+    "main.js": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/main.df571eb0.js",
     "static/js/787.a2fe03ed.chunk.js": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/787.a2fe03ed.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.3.0": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/fontawesome-webfont.fd7873675ac92feb54ea.svg",
     "static/media/fontawesome-webfont.ttf?v=4.3.0": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/fontawesome-webfont.45f9f92a5bfbad4be12f.ttf",
@@ -17,11 +17,11 @@
     "index.html": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/index.html",
     "static/media/backVerdeEfeitos.svg": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/media/backVerdeEfeitos.a3c465c97a6040e8bf5a.svg",
     "main.07f7ab14.css.map": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/css/main.07f7ab14.css.map",
-    "main.51a80f11.js.map": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/main.51a80f11.js.map",
+    "main.df571eb0.js.map": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/main.df571eb0.js.map",
     "787.a2fe03ed.chunk.js.map": "/wordbrain/wp-content/reactpress/apps/brain-landing/build/static/js/787.a2fe03ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07f7ab14.css",
-    "static/js/main.51a80f11.js"
+    "static/js/main.df571eb0.js"
   ]
 }
